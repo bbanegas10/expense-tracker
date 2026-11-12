@@ -9,7 +9,6 @@ def main():
     try:
         run()
     except (KeyboardInterrupt, EOFError):
-        # Ctrl+C or Ctrl+D: leave quietly instead of showing an error
         print("\n\nGoodbye!")
 
 
